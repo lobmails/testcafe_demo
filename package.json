@@ -1,0 +1,20 @@
+{
+  "name": "testcafe_demo",
+  "version": "1.0.0",
+  "description": "TestCafe Example",
+  "main": "test.js",
+  "scripts": {
+    "test": "testcafe puppeteer test.js",
+    "puppet": "testcafe puppeteer test.js",
+    "chrome": "testcafe chrome test.js"
+  },
+  "author": "Amit Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.1.0",
+    "testcafe-live": "^0.1.4"
+  },
+  "devDependencies": {
+    "testcafe-browser-provider-puppeteer": "^1.4.0"
+  }
+}
