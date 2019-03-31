@@ -2,6 +2,7 @@
   "name": "testcafe_demo",
   "version": "1.0.0",
   "description": "TestCafe Example",
+  "origin": "https://github.com/lobmails/testcafe_demo.git",
   "main": "test.js",
   "scripts": {
     "test": "testcafe puppeteer test.js",
